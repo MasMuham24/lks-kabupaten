@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Panen Durian Runtuh</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="container">
+    <h1 class="title">PANEN DURIAN RUNTUH</h1>
+
+    <img src="img/character.png" class="character" alt="Karakter">
+
+    <div class="button-group">
+      <button class="btn-img" onclick="mulaiGame()">
+        <img src="img/tb mulai bermain.png" alt="Mulai Bermain">
+      </button>
+
+      <button class="btn-img" onclick="openPopup()">
+        <img src="img/tombol mulai dan cara bermain.png" alt="Cara Bermain">
+      </button>
+    </div>
+  </div>
+
+  <div id="popup" class="popup">
+    <div class="popup-content">
+      <img src="img/cara bermain tanpa back.png" class="popup-img" alt="Cara Bermain">
+
+      <button class="back-btn" onclick="closePopup()">
+        <img src="img/tb back.png" alt="Back">
+      </button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

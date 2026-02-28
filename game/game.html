@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Game Panen Durian</title>
+  <link rel="stylesheet" href="game.css">
+</head>
+
+<body>
+
+  <div class="game-wrapper">
+
+    <img src="img/bag game play.png" class="bg">
+
+    <div class="ui score-ui">
+      <img src="img/icon score 2.png">
+      <span id="score">0</span>
+    </div>
+
+    <div class="ui timer-ui">
+      <img src="img/icon timer 2.png">
+      <span id="timer">45</span>
+    </div>
+
+    <div class="ui lives-ui">
+      <img src="img/icon nyawa 2.png" class="heart" id="life1">
+      <img src="img/icon nyawa 2.png" class="heart" id="life2">
+      <img src="img/icon nyawa 2.png" class="heart" id="life3">
+    </div>
+
+    <img src="img/keranjang durian.png" id="player" class="player">
+
+    <div id="gameOverPopup" class="popup">
+      <img src="img/game kalah.png" class="popup-img">
+
+      <div class="btn-group">
+        <img src="img/tombol main lagi dan back.png" id="restartBtn" class="btn-img">
+        <img src="img/tb back.png" id="backBtnLose" class="btn-img">
+      </div>
+    </div>
+
+    <div id="winPopup" class="popup">
+      <img src="img/game menang.png" class="popup-img">
+
+      <div class="btn-group">
+        <img src="img/tombol main lagi dan back.png" id="restartBtnWin" class="btn-img">
+        <img src="img/tb back.png" id="backBtnWin" class="btn-img">
+      </div>
+    </div>
+
+
+  </div>
+
+  <script src="game.js"></script>
+</body>
+
+</html>
